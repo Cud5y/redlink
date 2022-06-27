@@ -70,7 +70,7 @@ public class ChatChecker {
             webhook.setAvatarUrl("https://cdn.discordapp.com/icons/981966128039460884/19bca2031f71631086ae7c8bdb2f102d.png");
             webhook.setUsername("Redlink Stonks");
             embed.setTitle("Shop Information:");
-            embed.setColor(Color.GREEN);
+            embed.setColor(Color.RED);
         switch (messageInt) {
             case 1 -> {
                 message[49] = message[49].replace(" siblings=[TextComponent{text='", "");
